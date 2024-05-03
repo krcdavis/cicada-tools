@@ -1,0 +1,26 @@
+
+Four long: it's, he's, he'd, we'd, it'd
+Five long: don't, can't, isn't, won't, she's, you'd, let's, who's, she'd, ain't, who'd
+Six long: that's,  they'd,  that'd
+
+
+runes: th, ng/ing, ia/io, eo, oe, ea
+
+2'1: it's, he's, he'd, we'd, it'd
+
+3'1: don't, can't, isn't, won't, she's, you'd, let's, who's, she'd, ain't, who'd,
+that's, they'd, that'd
+
+'La3': {"IT'S":"it's", "HE'S":"he's", "HE'D":"he'd", "WE'D": "we'd", "IT'D":"it'd"},
+'La4': {"tAT'S":"that's","tEY'D":"they'd", "tAT'D":"that'd", }
+
+
+Three (including apostrophe) long: I'm, I'd
+Four long: it's, I've, he's, I'll, he'd, we'd, it'd
+Five long: don't, can't, we're, isn't, won't, we've, we'll, she's, you'd, let's, who's, he'll, it'll, she'd, ain't, who'd
+Six long: that's, didn't, you're, you'll, what's, wasn't, you've, aren't, here's, hasn't, hadn't, they'd, here's, who've, she'll, who'll, that'd
+Seven long: doesn't, there's, they're, world's, haven't, they've, weren't, they'll, o'clock, mustn't, needn't, must've, that'll
+Eight long: couldn't, wouldn't, could've, would've, there'll
+Nine long: shouldn't, should've
+Possessive words (e.g. John's)
+Names (e.g. O'Neill)

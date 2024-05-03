@@ -24,17 +24,18 @@ buffer.py
 One of the most interesting things about the unsolved pages is the statistical lack of doublets. The easiest way to explain this is some kind of autokey cipher where the amout of "f" runes (first in the runic alphabet, so a value of zero) in the text before autokeying is low. In fact Cicada has played with "f" rune before, so them engineering text to have low "f"s isn't unthinkable. This file undoes the presumed autokey encryption. It doesn't really reveal anything, but there it is anyway.
 
 wordconverter.py
-Converts words to runic form. The dictiomary used for brute force attempts was made using this and a selection of Cicada's writings, to get likely vocabuary. Some assumptions are made about certain problem points- for example, is the word "aeon" processed as ae-o-n or a-eo-n? A converter that works in alphabetical order ar Mprtlach's does will convert the 'eo' first, while one that goes through the word letter-by-letter as mine does would convert the 'ae' first.
+Converts words to runic form. The dictionary used for brute force attempts was made using this and a selection of Cicada's writings, to get likely vocabuary. Some assumptions are made about certain problem points- for example, is the word "aeon" processed as ae-o-n or a-eo-n? A converter that works in alphabetical order ar Mprtlach's does will convert the 'eo' first, while one that goes through the word letter-by-letter as mine does would convert the 'ae' first.
 This can be even worse. For example if the letters "aeoe" somehow ended up in plaintext, would that be turned into "ae-oe" or "a-eo-e"? The runic length is ambiguous! Cicada pls
+For words with apostrophes, the only ones used in the liber are three runes-apostrophe-one rune or two runes-apostrophe-one rune, so only those need to be considered.
 
 brute.py
-Low-quality brute-force tester.
+Low-quality brute-force tester. Needs some refinements. Currently set to demonstrate its use on the two solved sections that used vignere keys with skips.
 
 cribpoints.py
-Program for crib-testing various "points of interest", sentences where some clear limit is placed on what the underlying text can be. Includes a sentence from a solved page that used a vignere cipher to demonstrate that it actually works.
+Program for crib-testing various "points of interest", sentences where some clear limit is placed on what the underlying text can be. Includes a sentence from a solved page that used a vignere cipher to demonstrate that it actually works. Words should be entered in pseudo-runic form. needs apostrophe fix
 
 lengths.py
-Converts unsolved pages into word-length things. needs apostrophe fix
+Converts unsolved pages into word-length things.
 
 decribulator.py
-Comedy crib generator. Randomly picks matching words by length.
+Comedy crib generator. Randomly picks matching words by length. needs apostrophe fix
